@@ -1,0 +1,22 @@
+$font: lato;
+$size: 13;
+$textcolor: #3D5F8F;
+$textboxcolor: lightblue;
+
+ul > li{
+  font-family: $font;
+  font-size: $size;
+}
+
+ol > li{
+  font-family: $font;
+  font-weight: bold;
+  color: $textcolor;
+}
+
+#completed{
+  float:left;
+  background-color: $textboxcolor
+  border-radius:10px;
+  border: 2px dashed #3D5F8F;
+}

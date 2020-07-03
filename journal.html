@@ -1,5 +1,52 @@
 <link rel="stylesheet" href="C:/Users/USER/project0/otherheader.css">
 <html>
+  <title>My Quarantine Diary</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+
+  table{border: 0px solid black;
+		width: 95%}
+    tr{height:80px;}
+    th:hover{background-color:skyblue;}
+    th{
+      outline: 5px solid white;
+      color: white;
+      text-shadow: 2px 2px black;
+      width: 14%;
+    	text-align: center;
+    }
+    #row1{
+      background-color:  #3D5F8F;
+    }
+    #row2{
+      background-color: #4A7CA2
+    }
+    #row3{
+      background-color: #6C92AD;
+    }
+    #row4{
+      background-color: lightblue
+    }
+    td {
+    	border: 0px solid black;
+      outline: 5px solid white;
+    	text-align: left;
+      height: 100px;
+      padding: 7px;
+      font-family:calibri;
+      font-weight:bold;
+    }
+    td::before{
+      content:"\21d2"
+    }
+    td:hover{
+      color:white;
+      font-size:18;
+      outline: 0px solid white;
+      border:3px solid black;
+    }
+</style>
+
   <h1>
     My Quarantine Diary.
   </h1>
@@ -9,5 +56,46 @@
     <a href="meals.html"><button>Meals</button></a>
     <a href="todo.html"><button>Todo</button></a>
     </div>
+  <h2>Schedule </h2>
+
+  <div id="table">
+  <table>
+    <tr id="row1">
+      <th><span class="Days">SUN</span> <br>DAY 1</th>
+      <th><span class="Days">MON</span> <br>DAY 2</th>
+      <th><span class="Days">TUE</span> <br>DAY 3</th>
+      <th><span class="Days">WED</span> <br>DAY 4</th>
+      <th><span class="Days">THU</span> <br>DAY 5</th>
+      <th><span class="Days">FRI</span> <br>DAY 6</th>
+      <th><span class="Days">SAT</span> <br>DAY 7</th>
+    </tr>
+    <tr id="row2">
+      <td id="events">1pm arrived in Singapore </td>
+      <td id="events">   dfsd   </td>
+      <td id="events">        </td>
+      <td id="events">       </td>
+      <td id="events">        </td>
+      <td id="events">       </td>
+      <td id="events">         </td>
+    </tr>
+    <tr id="row3">
+      <th><span class="Days">SUN</span> <br>DAY 8</th>
+      <th><span class="Days">MON</span> <br>DAY 9</th>
+      <th><span class="Days">TUE</span> <br>DAY 10</th>
+      <th><span class="Days">WED</span> <br>DAY 11</th>
+      <th><span class="Days">THU</span> <br>DAY 12</th>
+      <th><span class="Days">FRI</span> <br>DAY 13</th>
+      <th><span class="Days">SAT</span> <br>DAY 14</th>
+    </tr>
+    <tr id="row4">
+      <td>3 Church Services </td>
+      <td>    </td>
+      <td>        </td>
+      <td> Swab Test </td>
+      <td>        </td>
+      <td>       </td>
+      <td>         </td>
+    </tr>
+    </table>
 
   </html>
