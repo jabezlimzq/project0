@@ -5,8 +5,7 @@ $size: 16;
 $textcolor: #3D5F8F;
 $textboxcolor: lightblue;
 
-div{
-margin:10px;}
+div{margin:10px;}
 
 %message{font-family: $font;
 font-size: $size;
@@ -33,12 +32,12 @@ font-weight: bold;
 
 ul > li{
   line-height: 45px;
-  .roman {
-   list-style-type: lower-roman;
-  }
   font-family: $font;
   font-size: $size;
   font-weight:bold;
+  .roman {
+   list-style-type: lower-roman;
+  }
   .square {
    list-style-type: square;
    margin-left: -2em;
