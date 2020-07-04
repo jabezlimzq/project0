@@ -1,8 +1,12 @@
-$font: lato;
-$size: 13;
+
+$font: courier;
+$size: 14;
 $textcolor: #3D5F8F;
 $textboxcolor: lightblue;
 
+%message{font-family: $font;
+font-size: $size;
+}
 ul > li{
   font-family: $font;
   font-size: $size;
@@ -16,7 +20,7 @@ ol > li{
 
 #completed{
   float:left;
-  background-color: $textboxcolor
+  background-color: $textboxcolor;
   border-radius:10px;
   border: 2px dashed #3D5F8F;
 }
