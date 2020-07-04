@@ -32,12 +32,13 @@ font-weight: bold;
 }
 
 ul > li{
-  line-height: 25px;
+  line-height: 45px;
   .roman {
    list-style-type: lower-roman;
   }
   font-family: $font;
   font-size: $size;
+  font-weight:bold;
   .square {
    list-style-type: square;
    margin-left: -2em;
