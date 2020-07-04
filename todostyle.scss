@@ -1,18 +1,47 @@
-
+---
 $font: courier;
-$size: 14;
+$size: 16;
 $textcolor: #3D5F8F;
 $textboxcolor: lightblue;
+
+div{float:left;
+margin:10px;}
 
 %message{font-family: $font;
 font-size: $size;
 }
-ul > li{
-  font-family: $font;
-  font-size: $size;
+
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
 }
 
-ol > li{
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 15px;
+  width: 15px;
+  background-color: #eee;
+}
+
+ul > li{
+  .roman {
+   list-style-type: lower-roman;
+  }
+  font-family: $font;
+  font-size: $size;
+  .square {
+   list-style-type: square;
+   margin-left: -2em;
+  }
+}
+
+ol{
   font-family: $font;
   font-weight: bold;
   color: $textcolor;
