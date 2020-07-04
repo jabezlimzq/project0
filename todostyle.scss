@@ -5,7 +5,7 @@ $size: 16;
 $textcolor: #3D5F8F;
 $textboxcolor: lightblue;
 
-div{margin:10px;float:left;}
+div{margin:10px}
 
 %message{font-family: $font;
 font-size: $size;
@@ -31,7 +31,7 @@ font-weight: bold;
 }
 
 ul > li{
-  line-height: 35px;
+  line-height: 25px;
   font-family: $font;
   font-size: $size;
   font-weight:bold;
